@@ -1,3 +1,4 @@
+setTimeout(() => {
 (function () {
   // Inject CSS
   const style = document.createElement('style');
@@ -150,3 +151,4 @@
     });
   }
 })();
+}, 350);

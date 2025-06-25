@@ -1,4 +1,8 @@
-setTimeout(() => {
+
+document.addEventListener('DOMContentLoaded', function () {
+  // All your code here
+
+//setTimeout(() => {
 (function () {
   // Inject CSS
   const style = document.createElement('style');
@@ -151,4 +155,6 @@ setTimeout(() => {
     });
   }
 })();
-}, 350);
+//}, 350);
+});
+    
